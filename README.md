@@ -4,7 +4,7 @@ Current performance (no of cycles) for a single update step of a 3-dimensional s
 
 | Software(Microblaze without floating point unit) | Software(Microblaze with floating point unit) | Software(Intel i5 9th Gen) |
 | ------------- | ------------- | ------------- |
-| 415750 | 187581  | --TODO-- |
+| 415750 @ 100MHz | 187581 @ 100MHz | 1761 ns (average of 10 runs) |
 
 | Hardware(Floating Point)  | Hardware(Fixed Point)  |
 | ------------- | ------------- |
