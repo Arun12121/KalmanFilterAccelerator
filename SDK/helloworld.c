@@ -161,7 +161,7 @@ int main()
 	XCounter_EnableAutoRestart(xcptr);
 	XCounter_Start(xcptr);
 
-	float z[6] = {-0.4761, -0.4661, -0.4561, -0.4461, 0.4361, -0.4261};
+	float z[6] = {-0.4761, -0.4661, -0.4561, -0.4461, -0.4361, -0.4261};
 	float y_true[6] = {0.0004, -0.0019, -0.0064, -0.0209, -0.0608, -0.1430};
 	int error = 0;
 	float y = 0;
