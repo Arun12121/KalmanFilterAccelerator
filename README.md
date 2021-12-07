@@ -7,7 +7,8 @@ Current performance (no of cycles) for a single update step of a 3-dimensional s
 | ------------- | ------------- | ------------- |
 | 415750 @ 100MHz | 187581 @ 100MHz | 1761 ns (average of 10 runs) |
 
-| Hardware(Floating Point)  | Hardware(Fixed Point)  |
+Hardware:
+| | Write | Read | Computation | LUT | DSP | FF |
 | ------------- | ------------- |
 | --TODO-- | --TODO--  |
 

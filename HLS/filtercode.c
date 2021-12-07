@@ -44,8 +44,8 @@ void kalmanfilter_initialize(void)
  */
 float kalmanfilter(float z)
 {
-  #pragma HLS INTERFACE s_axilite port = return bundle = CONTROL_BUS
-  #pragma HLS INTERFACE s_axilite port = z bundle = CONTROL_BUS
+  #pragma HLS INTERFACE s_axilite port = return
+  #pragma HLS INTERFACE s_axilite port = z
 
 
 
