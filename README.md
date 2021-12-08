@@ -10,7 +10,7 @@ Current performance (no of cycles) for a single update step of a 3-dimensional s
 Hardware(100MHz):
 | | Write | Read | Computation | LUT | DSP | FF |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Floating Point | 120 | 108 | 365 |  |  |  |
+| Floating Point | 120 | 108 | 365 | 9078 | 70 | 10834 |
 | Fixed Point | --TODO-- |  |  |  |  |  |
 
 ### Tasks
