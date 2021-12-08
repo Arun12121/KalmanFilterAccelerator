@@ -35,7 +35,7 @@ int main()
 
 	//int t1 = XCounter_Get_return(xcptr);
 
-	for(int i=1; i<2;i++)
+	for(int i=1; i<6;i++)
 	{
 		y = kalmanfilter(z[i]);
 		if((y - y_true[i]) > 0.001 || (y - y_true[i]) < -0.001)
